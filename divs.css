@@ -1,7 +1,8 @@
 body{
     color: blue;
-    display: flex;
+    display: flex; 
     align-items: center;
+    height: 50vh;
 }
 
 .parent{
@@ -10,8 +11,12 @@ body{
     color: none;
     border: 1px solid blue;
     margin: 0 auto;
-    display: flex;
+    display: flex; 
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50vh;
+    margin-bottom: 50vh;
     
 }
 .child{
@@ -20,6 +25,7 @@ body{
     color: none;
     border: 1px solid darkblue;
     margin: auto;
+    ;
 }
 p{
     /* float: left; */
